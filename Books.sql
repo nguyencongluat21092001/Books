@@ -34,12 +34,12 @@ CREATE TABLE `book` (
 --
 
 INSERT INTO `book` (`bookid`, `authorid`, `title`, `ISBN`, `pub_year`, `available`) VALUES
-(1, 1, 'Nguyễn Hải Phong ', '12', 1, 1),
-(2, 1, 'kaio', 'gay', 2021, 1),
-(3, 1, 'kaio1', 'gay', 2021, 1),
-(4, 1, 'title1', 'gay', 1, 1),
-(5, 1, 'title1', 'gay', 1, 1),
-(6, 1, 'luật bê đê', 'gay 100%', 2001, 1);
+(1, 1, 'Nguyễn Công Luật ', '12', 1, 1),
+(2, 1, 'kaio', 'deptrai', 2021, 1),
+(3, 1, 'kaio1', 'deotrai', 2021, 1),
+(4, 1, 'title1', 'deptrai', 1, 1),
+(5, 1, 'title2', 'deptrai', 1, 1),
+(6, 1, 'luật 092001', 'men 100%', 2001, 1);
 
 --
 -- Indexes for dumped tables
